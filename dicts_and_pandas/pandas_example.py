@@ -7,9 +7,6 @@ dict = {
     "population": [200.4, 143.5, 1252, 1357, 52.98]
 }
 
-#brics = pd.DataFrame(dict)
-#print(brics)
-
 # How to read a csv file
 brics = pd.read_csv("dicts_and_pandas/brics.csv", index_col=0) # you can use brics.index for change the index
 
